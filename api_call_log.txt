@@ -1,0 +1,272 @@
+In the SQL query----Time: 2024-07-10 13:52:09, Duration: 17.24s, Input: bing 的dau是多少？
+In the Visualization----Time: 2024-07-10 13:52:32, Duration: 6.01s, Input: 
+In the SQL query----Time: 2024-07-10 13:53:29, Duration: 22.74s, Input: bing copilot start 最近三天的dau是多少？
+In the Explain----Time: 2024-07-10 13:53:52, Duration: 21.07s, Input: bing copilot start 最近三天的dau是多少？
+In the Visualization----Time: 2024-07-10 13:54:25, Duration: 33.07s, Input: bing copilot start 最近三天的dau是多少？
+In the SQL query----Time: 2024-07-10 14:20:41, Duration: 23.78s, Input: bing的dau在最近3天内增长了多少？
+In the SQL query----Time: 2024-07-10 14:21:09, Duration: 31.00s, Input: bing的dau 在最近3天内增长了多少？
+In the SQL query----Time: 2024-07-10 14:22:52, Duration: 24.72s, Input: 我需要绘制条形图，请告诉我bing这个app最近7天的dau的变化
+In the Visualization----Time: 2024-07-10 14:23:34, Duration: 14.62s, Input: 请帮我绘制条形图
+In the Visualization----Time: 2024-07-10 14:24:47, Duration: 14.25s, Input: 能否绘制折线图呢？
+In the SQL query----Time: 2024-07-10 14:55:08, Duration: 23.47s, Input: 你好啊，您能告诉我bing app最近14天的dau吗？
+In the Visualization----Time: 2024-07-10 14:56:21, Duration: 39.23s, Input: 
+In the Visualization----Time: 2024-07-10 14:59:57, Duration: 172.09s, Input: 请告诉我最近3天的数据，我需要一张柱状图
+In the SQL query----Time: 2024-07-10 15:09:29, Duration: 23.17s, Input: 告诉我最近10天bing的dau是多少呢？
+In the Visualization----Time: 2024-07-10 15:10:23, Duration: 16.86s, Input: 
+In the Visualization----Time: 2024-07-10 15:12:09, Duration: 26.38s, Input: 请给我一张柱状图
+In the Explain----Time: 2024-07-10 15:13:20, Duration: 12.95s, Input: 告诉我最近10天bing的dau是多少呢？
+here is a suggestion:请告诉我最近7天bing的dau的变化
+
+In the SQL query----Time: 2024-07-10 15:16:18, Duration: 22.44s, Input: 请告诉我最近7天内bing的dau是多少呢？
+In the Visualization----Time: 2024-07-10 15:17:11, Duration: 18.92s, Input: 
+In the Visualization----Time: 2024-07-10 15:18:13, Duration: 26.43s, Input:  我需要一张柱状图？
+In the Explain----Time: 2024-07-10 15:20:36, Duration: 20.09s, Input: 请告诉我最近7天内bing的dau是多少呢？
+here is a suggestion:周末的数据是不是高于工作日呢
+
+In the SQL query----Time: 2024-07-10 15:28:29, Duration: 17.10s, Input: 请告诉我最近7天内bing的dau是多少呢？请同时获取日期和dau
+In the Explain----Time: 2024-07-10 15:29:11, Duration: 11.87s, Input: 请告诉我最近7天内bing的dau是多少呢？请同时获取日期和dau
+here is a suggestion:周末的数据是不是高于工作日呢
+
+In the Visualization----Time: 2024-07-10 15:32:09, Duration: 22.36s, Input: 
+In the Visualization----Time: 2024-07-10 15:32:57, Duration: 9.54s, Input: 能不能绘制折线图呢？
+In the SQL query----Time: 2024-07-10 15:35:14, Duration: 21.08s, Input: 请告诉我最近7天内bing的dau是多少呢？请同时获取日期，周时间和dau
+In the Explain----Time: 2024-07-10 15:45:05, Duration: 10.48s, Input: 请告诉我最近7天内bing的dau是多少呢？请同时获取日期，周时间和dau
+here is a suggestion:请告诉我这几天的dau的变化
+
+In the Visualization----Time: 2024-07-10 15:46:11, Duration: 10.82s, Input: 请绘制折线图
+In the Explain----Time: 2024-07-10 15:54:05, Duration: 17.14s, Input: 请告诉我最近7天内bing的dau是多少呢？请同时获取日期，周时间和dau
+here is a suggestion:
+
+In the SQL query----Time: 2024-07-10 16:43:17, Duration: 25.36s, Input: 最近10天bing的dau是多少呢？
+In the Explain----Time: 2024-07-10 16:46:52, Duration: 8.77s, Input: 最近10天bing的dau是多少呢？This query requests the Daily Active Users (DAU) for Bing on both iOS and Android platforms over the last 10 days from the specified default date of July 7, 2024. The SQL query will include conditions for each application ID related to Bing for both platforms and span 10 days: June 28, 2024, to July 7, 2024. And the query should use default values for all other fields.
+In the Explain----Time: 2024-07-10 16:47:42, Duration: 14.72s, Input: 最近10天bing的dau是多少呢？This query requests the Daily Active Users (DAU) for Bing on both iOS and Android platforms over the last 10 days from the specified default date of July 7, 2024. The SQL query will include conditions for each application ID related to Bing for both platforms and span 10 days: June 28, 2024, to July 7, 2024. And the query should use default values for all other fields.
+In the SQL query----Time: 2024-07-10 17:12:07, Duration: 22.91s, Input: bing 的最近7天的dau是多少？
+In the SQL query----Time: 2024-07-10 17:12:24, Duration: 16.35s, Input: bing 的最近7天的dau是多少？
+In the SQL query----Time: 2024-07-10 17:19:04, Duration: 17.90s, Input: 告訴我最近7天bing的dau是啥
+In the Explain----Time: 2024-07-10 17:20:08, Duration: 12.42s, Input: 告訴我最近7天bing的dau是啥This query requests the Daily Active Users (DAU) for Bing on both iOS and Android platforms over the last 7 days from the specified date of July 7, 2024. The SQL query will include conditions for each application ID related to Bing for both platforms and span the 7 days leading up to July 7, 2024. The query should use default values for all other fields.
+In the SQL query----Time: 2024-07-10 17:24:06, Duration: 19.52s, Input: Bing 最近7天的dau是多少呢？
+In the SQL query----Time: 2024-07-10 17:24:54, Duration: 14.82s, Input: Bing 最近7天的dau是多少呢？
+In the SQL query----Time: 2024-07-10 17:32:10, Duration: 27.72s, Input: 告訴我最近7天bing的dau是啥
+In the Visualization----Time: 2024-07-10 17:32:47, Duration: 15.04s, Input: 
+In the Explain----Time: 2024-07-10 17:33:24, Duration: 21.06s, Input: 告訴我最近7天bing的dau是啥The query requests the Daily Active Users (DAU) for Bing on both iOS and Android platforms over the last seven days from the specified default date of July 7, 2024. Since the operating system is not specified, we include both application IDs for Bing (iOS and Android). The SQL query will cover the date range from June 30, 2024, to July 6, 2024, and include conditions for each application ID related to Bing. Default values are used for all other fields.
+In the SQL query----Time: 2024-07-10 17:34:46, Duration: 24.99s, Input: 你知道bing最近7天的dau嗎？
+In the SQL query----Time: 2024-07-10 17:34:54, Duration: 14.89s, Input: 你知道bing最近7天的dau嗎？
+In the Explain----Time: 2024-07-10 17:35:43, Duration: 24.91s, Input: 你知道bing最近7天的dau嗎？This query requests the Daily Active Users (DAU) for Bing on both iOS and Android platforms over the last 7 days from the specified date of July 7, 2024. The SQL query will include conditions for each application ID related to Bing (both for iOS and Android) and span the 7 days leading up to July 7, 2024. And the query should use default values for all other fields.
+In the SQL query----Time: 2024-07-10 18:18:54, Duration: 27.74s, Input: bing最近7天的dau是多少？
+In the SQL query----Time: 2024-07-10 18:19:47, Duration: 20.12s, Input: bing最近7天的dau是多少？
+In the SQL query----Time: 2024-07-10 18:20:11, Duration: 30.27s, Input: 你知道bing最近7天的dau嗎？
+In the Explain----Time: 2024-07-10 18:21:02, Duration: 26.38s, Input: 你知道bing最近7天的dau嗎？This query requests the Daily Active Users (DAU) for Bing on both iOS and Android platforms over the last 7 days from the specified default date of July 7, 2024. The SQL query will include conditions for each application ID related to Bing for both platforms and span the 7 days leading up to and including July 7, 2024. The query should use default values for all other fields.
+In the Explain----Time: 2024-07-10 18:22:09, Duration: 14.82s, Input: 你知道bing最近7天的dau嗎？This query requests the Daily Active Users (DAU) for Bing on both iOS and Android platforms over the last 7 days from the specified default date of July 7, 2024. The SQL query will include conditions for each application ID related to Bing for both platforms and span the 7 days leading up to and including July 7, 2024. The query should use default values for all other fields.
+Suggestion: 請用200個單詞解釋
+In the Visualization----Time: 2024-07-10 18:22:56, Duration: 15.47s, Input: 
+In the SQL query----Time: 2024-07-10 19:38:04, Duration: 15.44s, Input: 告诉我bing的dau是多少呢？
+In the SQL query----Time: 2024-07-10 19:40:43, Duration: 21.30s, Input: 告诉我bing的dau是多少？
+In the SQL query----Time: 2024-07-10 19:47:48, Duration: 23.82s, Input: 请你告诉我bing的dau是多少？
+In the SQL query----Time: 2024-07-10 19:53:07, Duration: 17.18s, Input: bing的dau是多少？
+In the SQL query----Time: 2024-07-10 19:54:41, Duration: 19.30s, Input: bing 的dau是多少？
+In the SQL query----Time: 2024-07-10 19:59:00, Duration: 18.03s, Input: bing的dau是多少？
+In the SQL query----Time: 2024-07-10 20:02:14, Duration: 19.98s, Input: bing 的dau是多少呢？
+In the SQL query----Time: 2024-07-10 20:04:22, Duration: 20.42s, Input: Bing的dau是多少呢？
+In the SQL query----Time: 2024-07-10 20:06:32, Duration: 23.91s, Input: Please tell me the dau of bing
+In the SQL query----Time: 2024-07-10 20:30:08, Duration: 19.71s, Input: bing的dau
+In the SQL query----Time: 2024-07-10 20:34:51, Duration: 24.56s, Input: bing 最近9天的dau是多少
+In the SQL query----Time: 2024-07-10 20:36:19, Duration: 16.97s, Input: bing's dau
+In the SQL query----Time: 2024-07-10 20:59:36, Duration: 15.73s, Input: bing的dau是多少呢？
+In the SQL query----Time: 2024-07-10 21:05:11, Duration: 16.92s, Input: bing's dau
+In the SQL query----Time: 2024-07-10 21:07:39, Duration: 15.95s, Input: 告诉我最近3天bing的dau
+In the SQL query----Time: 2024-07-10 21:21:33, Duration: 28.20s, Input: bing的dau是多少？
+In the SQL query----Time: 2024-07-10 21:26:30, Duration: 18.19s, Input: Bing ‘s dau
+In the SQL query----Time: 2024-07-10 21:28:30, Duration: 18.23s, Input: bing’s dau
+In the SQL query----Time: 2024-07-10 21:33:41, Duration: 39.35s, Input: bing的dau是多少？
+In the SQL query----Time: 2024-07-10 21:40:12, Duration: 16.74s, Input: bing的dau是多少呢？
+In the SQL query----Time: 2024-07-11 17:04:58, Duration: 29.93s, Input: 请告诉我bing 最近7天内dau最高的3个市场
+In the SQL query----Time: 2024-07-11 17:06:22, Duration: 30.66s, Input: 请告诉我bing 最近7天内dau最高的3个市场，我要这21个数据，需要打印出这7天的dua
+In the SQL query----Time: 2024-07-11 17:08:06, Duration: 19.87s, Input: 请告诉我bing 这个app在美国和英国市场最近10天内的dau。
+In the Visualization----Time: 2024-07-11 17:08:49, Duration: 25.05s, Input: 
+In the SQL query----Time: 2024-07-11 17:11:29, Duration: 22.13s, Input: 我需要知道美国和英国最近7天的dau
+In the Visualization----Time: 2024-07-11 17:12:27, Duration: 14.14s, Input: 请绘制一个折线图
+In the Explain----Time: 2024-07-11 17:14:10, Duration: 32.00s, Input: 我需要知道美国和英国最近7天的dauThis query requests the Daily Active Users (DAU) for the United States ('en-us') and the United Kingdom ('en-gb') markets over the last seven days from the specified date of July 8, 2024. Since the period is not specified, we will use a period of 1 to indicate daily data. The SQL query will include conditions for each market and span seven days: July 1, 2024, to July 7, 2024. And the query should use default values for all other fields.
+Suggestion: 请用120个字解释一下这个数据
+In the Explain----Time: 2024-07-11 17:15:05, Duration: 10.53s, Input: 我需要知道美国和英国最近7天的dauThis query requests the Daily Active Users (DAU) for the United States ('en-us') and the United Kingdom ('en-gb') markets over the last seven days from the specified date of July 8, 2024. Since the period is not specified, we will use a period of 1 to indicate daily data. The SQL query will include conditions for each market and span seven days: July 1, 2024, to July 7, 2024. And the query should use default values for all other fields.
+Suggestion: 平均来说，美国市场的dau是英国市场的多少倍？
+In the SQL query----Time: 2024-07-11 22:53:03, Duration: 28.23s, Input: "What are the top-10 markets in Bing？"
+In the Explain----Time: 2024-07-11 22:56:18, Duration: 46.91s, Input: What are the top-10 markets in Bing？The request is to find the top-10 markets with the highest number of Daily Active Users (DAU) for the Bing application on both iOS and Android platforms on the default date of July 8, 2024. We will be using the application IDs for Bing-Android and Bing-IOS, which are '2130688B018F4B44BBED68E7A42BBA1E' and 'AE427635ADC245AE973038BCB3D7C21B' respectively. The SQL query will group the results by market and order them in descending order based on DAU, limiting the output to the top 10 markets.\Instrution: "I need a bar chart"
+In the Visualization----Time: 2024-07-11 22:57:31, Duration: 18.70s, Input: 请绘制一个饼状图
+In the Explain----Time: 2024-07-11 23:03:20, Duration: 10.59s, Input: What are the top-10 markets in Bing？The request is to find the top-10 markets with the highest number of Daily Active Users (DAU) for the Bing application on both iOS and Android platforms on the default date of July 8, 2024. We will be using the application IDs for Bing-Android and Bing-IOS, which are '2130688B018F4B44BBED68E7A42BBA1E' and 'AE427635ADC245AE973038BCB3D7C21B' respectively. The SQL query will group the results by market and order them in descending order based on DAU, limiting the output to the top 10 markets.\Instrution:  请用30个单词解释这个数据！ 
+In the SQL query----Time: 2024-07-11 23:23:42, Duration: 26.26s, Input: What are the dau of Bing, Android, Start in recent 3 days?
+In the SQL query----Time: 2024-07-11 23:24:42, Duration: 28.52s, Input: What are the dau of Bing, Android, Start in recent 7 days?
+In the Explain----Time: 2024-07-11 23:27:54, Duration: 6.57s, Input: What are the dau of Bing, Android, Start in recent 7 days?The query requests the Daily Active Users (DAU) for the applications Bing and Start on the Android platform over the recent 7 days from the specified date of July 8, 2024. It will include conditions for the application IDs related to Bing-Android and Start-Android. The SQL query will cover the date range from July 1, 2024, to July 8, 2024, and will use default values for all other fields.\Instrution:  请用10个单词分析这个结果
+In the Explain----Time: 2024-07-11 23:29:28, Duration: 11.76s, Input: What are the dau of Bing, Android, Start in recent 7 days?The query requests the Daily Active Users (DAU) for the applications Bing and Start on the Android platform over the recent 7 days from the specified date of July 8, 2024. It will include conditions for the application IDs related to Bing-Android and Start-Android. The SQL query will cover the date range from July 1, 2024, to July 8, 2024, and will use default values for all other fields.\Instrution: 请用100个单词分析这个结果 
+In the SQL query----Time: 2024-07-12 14:12:34, Duration: 23.23s, Input: 告诉我bing的最近7天的dau
+In the Visualization----Time: 2024-07-12 14:13:18, Duration: 19.13s, Input:  please draw a bar chart
+In the Visualization----Time: 2024-07-12 14:14:23, Duration: 21.85s, Input: 画一个折线图
+In the Visualization----Time: 2024-07-12 14:20:46, Duration: 13.99s, Input:  请绘制从最后一天的数据，并绘制饼状图
+In the Visualization----Time: 2024-07-12 14:23:49, Duration: 44.05s, Input: {
+    animationDuration: 10000,
+    dataset: [
+      {
+        id: 'dataset_raw',
+        source: _rawData
+      },
+      ...datasetWithFilters
+    ],
+    title: {
+      text: 'Income of Germany and France since 1950'
+    },
+    tooltip: {
+      order: 'valueDesc',
+      trigger: 'axis'
+    },
+    xAxis: {
+      type: 'category',
+      nameLocation: 'middle'
+    },
+    yAxis: {
+      name: 'Income'
+    },
+    grid: {
+      right: 140
+    },
+    series: seriesList
+  };
+  myChart.setOption(option);
+}
+In the Visualization----Time: 2024-07-12 14:24:43, Duration: 18.96s, Input: 请绘制最后三天的饼状图
+In the SQL query----Time: 2024-07-12 14:26:50, Duration: 27.00s, Input: 告诉我bing和copilot的最近7天的dau
+In the Visualization----Time: 2024-07-12 14:28:00, Duration: 27.71s, Input:  请绘制一个折线图
+In the Visualization----Time: 2024-07-12 14:29:04, Duration: 15.56s, Input: 请绘制7月4日的饼状图
+In the Visualization----Time: 2024-07-12 14:29:40, Duration: 14.04s, Input: 请绘制最后三天的柱状图
+In the Visualization----Time: 2024-07-12 14:34:04, Duration: 14.68s, Input:  you are a master of echart, please draw a line chart of Copilot-IOS 
+In the SQL query----Time: 2024-07-12 14:37:51, Duration: 24.63s, Input: 请告诉我最近7天start 和bing的dau
+In the Visualization----Time: 2024-07-12 14:39:17, Duration: 33.00s, Input:  please draw a line chart.
+In the Visualization----Time: 2024-07-12 14:40:35, Duration: 13.89s, Input:  请告诉我最近一天的dau 绘制饼状图
+In the Explain----Time: 2024-07-12 14:42:17, Duration: 15.79s, Input: 请告诉我最近7天start 和bing的dauThis query requests the Daily Active Users (DAU) for four specific applications: Start-IOS, Start-Android, Bing-IOS, and Bing-Android over the last seven days from the specified date of July 9, 2024. The SQL query will include conditions for each application ID related to the provided application names and span seven days: July 2, 2024, to July 9, 2024. And the query should use default values for all other fields.\Instrution:  请用100个单词解释已有数据
+In the SQL query----Time: 2024-07-12 14:44:27, Duration: 22.92s, Input: 请告诉我最近7天内copilot的dau
+In the Visualization----Time: 2024-07-12 14:45:13, Duration: 9.69s, Input: 
+In the SQL query----Time: 2024-07-12 14:47:10, Duration: 30.13s, Input: 请告诉我copilot start 和bing 最近三天的dau
+In the SQL query----Time: 2024-07-12 15:04:41, Duration: 27.27s, Input: 告诉我bing的最近7天的dau
+In the Explain----Time: 2024-07-12 15:04:57, Duration: 14.69s, Input: 告诉我bing的最近7天的dauThis query requests the Daily Active Users (DAU) for Bing on both iOS and Android platforms for the last seven days up to the default specified date of July 9, 2024. The SQL query will include conditions for each application ID related to Bing (both '2130688B018F4B44BBED68E7A42BBA1E' for Bing-Android and 'AE427635ADC245AE973038BCB3D7C21B' for Bing-IOS) and will span the dates from July 2, 2024, to July 9, 2024. The query should use default values for all other fields.\Instrution: 告诉我bing的最近7天的dau
+In the Visualization----Time: 2024-07-12 15:05:20, Duration: 22.42s, Input: 告诉我bing的最近7天的dau
+In the SQL query----Time: 2024-07-12 15:10:55, Duration: 49.57s, Input: 我需要计算7天bing app dau平均值的周环比，月同比
+In the SQL query----Time: 2024-07-12 15:11:37, Duration: 26.18s, Input: 我需要计算7天bing app dau平均值的周环比。
+In the Explain----Time: 2024-07-19 10:18:08, Duration: 43.61s, Input: 请给我2024年7月14日daily_check的结果。Check Date: 2024-07-14
+ Metrics Date: 2024-07-14 DAU: avg-7d 5.152 M (-55.970k WoW), last-1d 5.094 M (205.203k WoW)
+ Metrics Date: 2024-07-10 New Retention Day7: avg-7d 12.3% (2.39 pp WoW), last-1d 12.914% (0.41pp WoW)
+ Metrics Date: 2024-07-14 Chat DAU: avg-7d 1.063 M (-93.959k WoW), last-1d 0.932 M (-133.294 K WoW)
+In the Explain----Time: 2024-07-19 10:30:37, Duration: 38.43s, Input:  请生成2024年7月10日的daily check reportCheck Date: 2024-07-10
+ Metrics Date: 2024-07-10 DAU: avg-7d 5.140 M (-240.499k WoW), last-1d 5.233 M (-149.831k WoW)
+ Metrics Date: 2024-07-10 New Retention Day7: avg-7d 12.3% (2.39 pp WoW), last-1d 12.914% (0.41pp WoW)
+ Metrics Date: 2024-07-10 Chat DAU: avg-7d 1.133 M (-69.923k WoW), last-1d 1.145 M (-74.475 K WoW)
+In the Explain----Time: 2024-07-19 10:43:45, Duration: 25.83s, Input: 请帮我生成2024年7月19日的daily checkCheck Date: 2024-07-19
+ Metrics Date: 2024-07-17 DAU: avg-7d 5.147 M (7.086k WoW), last-1d 5.219 M (-13.445k WoW)
+ Metrics Date: 2024-07-10 New Retention Day7: avg-7d 12.3% (2.39 pp WoW), last-1d 12.914% (0.41pp WoW)
+ Metrics Date: 2024-07-16 Chat DAU: avg-7d 1.015 M (-127.837k WoW), last-1d 1.023 M (-159.758 K WoW) 
+
+In the Explain----Time: 2024-07-19 10:46:01, Duration: 28.36s, Input: 请生成2024年7月19日的daily reportCheck Date: 2024-07-19
+ Metrics Date: 2024-07-17 DAU: avg-7d 5.147 M (7.086k WoW), last-1d 5.219 M (-13.445k WoW)
+ Metrics Date: 2024-07-10 New Retention Day7: avg-7d 12.3% (2.39 pp WoW), last-1d 12.914% (0.41pp WoW)
+ Metrics Date: 2024-07-16 Chat DAU: avg-7d 1.015 M (-127.837k WoW), last-1d 1.023 M (-159.758 K WoW) 
+
+In the Explain----Time: 2024-07-19 10:52:08, Duration: 34.53s, Input: 请生成2024年7月12日的daily checkCheck Date: 2024-07-12
+ Metrics Date: 2024-07-12 DAU: avg-7d 5.119 M (-158.383k WoW), last-1d 5.079 M (-103.098k WoW)
+ Metrics Date: 2024-07-10 New Retention Day7: avg-7d 12.3% (2.39 pp WoW), last-1d 12.914% (0.41pp WoW)
+ Metrics Date: 2024-07-12 Chat DAU: avg-7d 1.099 M (-73.606k WoW), last-1d 1.007 M (-120.527 K WoW) 
+
+In the Explain----Time: 2024-07-19 11:01:44, Duration: 80.49s, Input:  Please generate the daily check report on June 10th, 2024Daily Check 
+ Check Date: 2024-06-10
+ Metrics Date: 2024-06-10 DAU: avg-7d 5.699 M (-50.866k WoW), last-1d 5.840 M (-79.412k WoW)
+ Metrics Date: 2024-06-10 New Retention Day7: avg-7d 10.1% (-0.43 pp WoW), last-1d 9.498% (-1.13pp WoW)
+ Metrics Date: 2024-06-10 Chat DAU: avg-7d 1.509 M (-18.052k WoW), last-1d 1.537 M (-35.088 K WoW) 
+
+In the Explain----Time: 2024-07-19 11:06:27, Duration: 33.75s, Input: 请生成2024年7月10日的daily checkDaily Check 
+ Check Date: 2024-07-10
+ Metrics Date: 2024-07-10 DAU: avg-7d 5.140 M (-240.499k WoW), last-1d 5.233 M (-149.831k WoW)
+ Metrics Date: 2024-07-10 New Retention Day7: avg-7d 12.3% (2.39 pp WoW), last-1d 12.914% (0.41pp WoW)
+ Metrics Date: 2024-07-10 Chat DAU: avg-7d 1.133 M (-69.923k WoW), last-1d 1.145 M (-74.475 K WoW) 
+| **Check Item**         | **Link/Status**                                                                                       |
+| ---------------------- | ----------------------------------------------------------------------------------------------------- |
+| **OKR - SA DAU**       | [DAU ASO](https://msasg.visualstudio.com/SAN%20SA/_backlogs/backlog/SA%20Leadership%20Team/Epics?workitem=6229619)       |
+| **OKR - SA Retention** | [Retention ASO](https://msasg.visualstudio.com/SAN%20SA/_backlogs/backlog/SA%20Leadership%20Team/Epics?workitem=6229646) |
+| **OKR - Codex Chat**   | [Codex ASO](https://msasg.visualstudio.com/SAN%20SA/_backlogs/backlog/SA%20Leadership%20Team/Epics?workitem=6229592)     |
+
+    
+In the Explain----Time: 2024-07-19 11:12:48, Duration: 8.63s, Input:  Please tell me the rolling 7 chat_dau in range of [2024-07-02, 2024-07-16].          time  Chat Active DAU (R7)
+0   2024-06-25          1.382073e+06
+1   2024-06-26          1.372002e+06
+2   2024-06-27          1.352700e+06
+3   2024-06-28          1.320021e+06
+4   2024-06-29          1.276729e+06
+5   2024-06-30          1.250326e+06
+6   2024-07-01          1.244191e+06
+7   2024-07-02          1.222935e+06
+8   2024-07-03          1.202554e+06
+9   2024-07-04          1.185872e+06
+10  2024-07-05          1.172444e+06
+11  2024-07-06          1.164321e+06
+12  2024-07-07          1.156816e+06
+13  2024-07-08          1.150523e+06
+14  2024-07-09          1.143271e+06
+15  2024-07-10          1.132632e+06
+16  2024-07-11          1.116056e+06
+17  2024-07-12          1.098838e+06
+18  2024-07-13          1.081899e+06
+19  2024-07-14          1.062857e+06
+20  2024-07-15          1.038257e+06
+21  2024-07-16          1.015434e+06
+In the Explain----Time: 2024-07-19 11:15:06, Duration: 9.60s, Input:  请告诉我最近7天WoW的chat_dauUnable to proceed without specific start_date and end_date parameters. Please provide the exact date range for the last 7 days you are interested in.
+In the Explain----Time: 2024-07-19 11:16:17, Duration: 7.17s, Input: 请告诉我最[2024-07-01,2024-07-16]这几天WoW的chat_dau          time  Chat Active DAU (R1)
+0   2024-06-30             1118310.0
+1   2024-07-01             1207384.0
+2   2024-07-02             1233277.0
+3   2024-07-03             1219269.0
+4   2024-07-04             1197322.0
+5   2024-07-05             1127986.0
+6   2024-07-06             1046699.0
+7   2024-07-07             1065773.0
+8   2024-07-08             1163336.0
+9   2024-07-09             1182513.0
+10  2024-07-10             1144794.0
+11  2024-07-11             1081294.0
+12  2024-07-12             1007459.0
+13  2024-07-13              928124.0
+14  2024-07-14              932479.0
+15  2024-07-15              991136.0
+16  2024-07-16             1022755.0
+In the Explain----Time: 2024-07-19 12:28:05, Duration: 30.23s, Input:  请告诉我2024年7月10号的daily checkDaily Check 
+ Check Date: 2024-07-10
+ Metrics Date: 2024-07-10 DAU: avg-7d 5.140 M (-240.499k WoW), last-1d 5.233 M (-149.831k WoW)
+ Metrics Date: 2024-07-10 New Retention Day7: avg-7d 12.3% (2.39 pp WoW), last-1d 12.914% (0.41pp WoW)
+ Metrics Date: 2024-07-10 Chat DAU: avg-7d 1.133 M (-69.923k WoW), last-1d 1.145 M (-74.475 K WoW) 
+| **Check Item**         | **Link/Status**                                                                                       |
+| ---------------------- | ----------------------------------------------------------------------------------------------------- |
+| **OKR - SA DAU**       | [DAU ASO](https://msasg.visualstudio.com/SAN%20SA/_backlogs/backlog/SA%20Leadership%20Team/Epics?workitem=6229619)       |
+| **OKR - SA Retention** | [Retention ASO](https://msasg.visualstudio.com/SAN%20SA/_backlogs/backlog/SA%20Leadership%20Team/Epics?workitem=6229646) |
+| **OKR - Codex Chat**   | [Codex ASO](https://msasg.visualstudio.com/SAN%20SA/_backlogs/backlog/SA%20Leadership%20Team/Epics?workitem=6229592)     |
+
+    
+In the Explain----Time: 2024-07-19 14:07:25, Duration: 12.37s, Input:  Please tall me the rolling 7 day retention day 7 in [2024-06-23,2024-07-09]          time  Retention D7 R7
+0   2024-06-17         0.082934
+1   2024-06-18         0.083886
+2   2024-06-19         0.084598
+3   2024-06-20         0.084137
+4   2024-06-21         0.083541
+5   2024-06-22         0.082527
+6   2024-06-23         0.081835
+7   2024-06-24         0.080775
+8   2024-06-25         0.080013
+9   2024-06-26         0.079124
+10  2024-06-27         0.078814
+11  2024-06-28         0.078887
+12  2024-06-29         0.079389
+13  2024-06-30         0.081246
+14  2024-07-01         0.087103
+15  2024-07-02         0.092935
+16  2024-07-03         0.099400
+17  2024-07-04         0.105443
+18  2024-07-05         0.111221
+19  2024-07-06         0.117108
+20  2024-07-07         0.121737
+21  2024-07-08         0.122487
+22  2024-07-09         0.122706
+In the Explain----Time: 2024-07-19 14:09:00, Duration: 6.31s, Input:  I need a dataframe of rolling 1 of dau in 2024-07-19         time   DAU (R1)
+0  2024-07-18  5168537.0
