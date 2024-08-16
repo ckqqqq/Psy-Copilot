@@ -166,7 +166,8 @@ def initialize_st():
     
     agentExplain = AgentExplain() # Agent for explain SQL result
     agentVisual = AgentVisual() # Agent for echart
-    toolPGSQL = ToolPGSQL() # Agent for run PGSQL
+    toolPGSQL=None
+    # toolPGSQL = ToolPGSQL() # Agent for run PGSQL
     formatter = Formatter() # format result decode/encode for GPT input/ouput
     agentToolUser= AgentToolUser()
     print("Agent loaded")

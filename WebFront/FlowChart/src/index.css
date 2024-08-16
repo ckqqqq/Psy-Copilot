@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  
+}
+
+/* 属性面板 */
+.property-panel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+  background-color: white;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  z-index: 101;
+  box-shadow: 0 0 10px 1px rgb(228, 224, 219);
+}
+/* 属性 */
+.property-panel-footer {
+  width: 100%;
+  text-align: center;
+}
+.property-panel-footer .property-panel-footer-hide {
+  width: 200px;
+}
+
+.approve-example-container .lf-control{
+  position: fixed;
+  top: 10px;
+  left: calc(50vw - 150px);
+  width: 275px;
+  box-shadow: 0 0 10px #888888;
+}
+.form-property{
+  width: 30%;
+}
+.hover-panel{
+  position: fixed;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

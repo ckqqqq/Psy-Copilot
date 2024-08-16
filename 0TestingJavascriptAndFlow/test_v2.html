@@ -1,0 +1,47 @@
+<!-- 引入 core包 -->
+<script src="https://cdn.jsdelivr.net/npm/@logicflow/core/dist/index.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/@logicflow/core/lib/style/index.min.css" rel="stylesheet">
+
+<!-- 创建画布容器 -->
+<div id="container"></div>
+
+<script>
+// 准备图数据
+const data = {
+  // 节点
+  nodes: [
+    {
+      id: '21',
+      type: 'rect',
+      x: 100,
+      y: 200,
+      text: 'rect node',
+    },
+    {
+      id: '50',
+      type: 'circle',
+      x: 300,
+      y: 400,
+      text: 'circle node',
+    },
+  ],
+  // 边
+  edges: [
+    {
+      type: 'polyline',
+      sourceNodeId: '50',
+      targetNodeId: '21',
+    },
+  ],
+}
+// 创建画布实例
+const lf = new Core.default({
+  container: document.querySelector('#container'),
+  width: 700,
+  height: 500,
+  grid: true,
+})
+
+// 渲染画布实例
+lf.render(data)
+</script>

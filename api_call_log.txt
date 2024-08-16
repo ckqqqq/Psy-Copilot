@@ -270,3 +270,16 @@ In the Explain----Time: 2024-07-19 14:07:25, Duration: 12.37s, Input:  Please ta
 22  2024-07-09         0.122706
 In the Explain----Time: 2024-07-19 14:09:00, Duration: 6.31s, Input:  I need a dataframe of rolling 1 of dau in 2024-07-19         time   DAU (R1)
 0  2024-07-18  5168537.0
+--Time: 2024-07-24 11:12:42, Duration: 3.58s, Input: 你是谁
+--Time: 2024-07-24 11:13:04, Duration: 2.94s, Input: 你是谁
+--Time: 2024-07-24 11:13:43, Duration: 3.02s, Input: 你是谁
+--Time: 2024-07-24 11:14:46, Duration: 3.21s, Input: 你是谁
+--Time: 2024-07-24 12:17:30, Duration: 3.52s, Input: 你是谁
+--Time: 2024-07-24 12:29:04, Duration: 3.47s, Input: 你是谁
+--Time: 2024-07-24 12:31:24, Duration: 3.48s, Input: 你是谁
+--Time: 2024-07-24 13:41:09, Duration: 3.42s, Input: 你是谁
+--Time: 2024-07-24 13:41:49, Duration: 3.18s, Input: 你是谁
+--Time: 2024-07-24 13:47:21, Duration: 3.37s, Input: 你是谁
+--Time: 2024-07-24 13:50:49, Duration: 3.49s, Input: 你是谁
+--Time: 2024-07-24 13:55:01, Duration: 3.50s, Input: 你是谁
+--Time: 2024-07-24 14:05:59, Duration: 73.37s, Input: 你是谁

@@ -8,7 +8,7 @@ from openai import AzureOpenAI
 import os
 from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 import json
-from src.tool_set.tools import *
+from src.tool_set.tools import tools_list
 
 import datetime
 initial_tool_functions="functions=["+",\n".join([tool_function.__doc__ for tool_function in tools_list])+"]"

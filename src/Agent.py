@@ -1,44 +1,43 @@
 from string import Template
 import pandas as pd
-# pd.set_option('display.max_colwidth', None)
-from azure.identity import AzureCliCredential, DefaultAzureCredential
-from openai import AzureOpenAI
 import os
-from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 import json
-from src.CodePrompt import init_prompt_miniapp,init_prompt_dau
+from openai import OpenAI
 
 
 import datetime
+"""
+from openai import OpenAI
+client = OpenAI()
 
+completion = client.chat.completions.create(
+  model="gpt-4o-mini",
+  messages=[
+    {"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
+    {"role": "user", "content": "Compose a poem that explains the concept of recursion in programming."}
+  ]
+)
+
+print(completion.choices[0].message)
+"""
 # DefaultAzureCredential()
+
+openai_api_key = os.getenv("OPENAI_API_KEY")
+model_list=["gpt-4o-mini","deepseek-chat"]
+chatbot_url_list=['https://gptnb.keqichen.top/v1','https://api.deepseek.com']
 class Agent():
-    def __init__(self, key, temperature=0.4, max_tokens=3000, top_p=0.7):
+    def __init__(self, key=openai_api_key,base_url=chatbot_url_list[1],model=model_list[1], temperature=0.4, max_tokens=3000, top_p=0.7):
         """
         Initialize Agent class with API credentials and model parameters
         """
-        self.deployment_name = "gpt4"
-        self.credential = DefaultAzureCredential()
-        self.token_provider = get_bearer_token_provider(
-            self.credential, "https://cognitiveservices.azure.com/.default"
-        )
+        self.model = model
         # replace hardcode api key with credential
-        self.client4 = AzureOpenAI(
-        #     api_version="2024-02-15-preview",
-            api_version="2023-12-01-preview",
-            azure_endpoint="https://chatapi-openai.openai.azure.com/",
-            azure_ad_token_provider=self.token_provider
-        )
+        self.client4 = OpenAI(base_url=base_url,api_key=openai_api_key)
+        self.system_prompt="You are a professional therapist, and you are good at counseling."
         self.temperature = temperature
         self.max_tokens = max_tokens
         self.top_p = top_p
         
-        if key == "dau":
-            self.prompt = init_prompt_dau()
-        elif key == "miniapp":
-            self.prompt = init_prompt_miniapp()
-        else:
-            raise ValueError("key must be dau or miniapp")
 
     def log_call(self, human_input, duration):
         """
@@ -46,21 +45,11 @@ class Agent():
         """
         log_filename = "api_call_log.txt"
         current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        log_entry = f"In the SQL query----Time: {current_time}, Duration: {duration:.2f}s, Input: {human_input}\n"
+        log_entry = f"--Time: {current_time}, Duration: {duration:.2f}s, Input: {human_input}\n"
         
         with open(log_filename, "a", encoding="utf-8") as log_file:
             log_file.write(log_entry)
 
-    def change_prompt(self, key):
-        """
-        Change the prompt based on the key
-        """
-        if key == "dau":
-            self.prompt = init_prompt_dau()
-        elif key == "miniapp":
-            self.prompt = init_prompt_miniapp()
-        print(key)
-        
     def update_params(self, temperature=None, max_tokens=None, top_p=None):
         """
         Update the parameters for temperature, max_tokens, and top_p
@@ -76,14 +65,15 @@ class Agent():
         """
         Interact with the API to get a response for the given query
         """
-        self.messages = self.get_prompt_for_comments([query], self.prompt)
+        self.messages = self.get_prompt_for_comments(system_prompt=self.system_prompt,user_comments=[query])
 
         start_time = datetime.datetime.now()
 
         try:
             gpt_response = self.client4.chat.completions.create(
-                model=self.deployment_name,
+                model=self.model,
                 response_format={"type": "json_object"},
+                
                 messages=self.messages,
                 temperature=self.temperature,
                 max_tokens=self.max_tokens,
@@ -128,12 +118,12 @@ class Agent():
             return None
 
     #给输入增加prompt
-    def get_prompt_for_comments(self,comments, prompt):
-        messages = [{ "role": "system", "content": prompt}]
-        if isinstance(comments, str):
-            messages.append({"role": "user", "content": comments})
-        elif isinstance(comments, list):
-            for comment in comments:
+    def get_prompt_for_comments(self,system_prompt,user_comments):
+        messages = [{ "role": "system", "content": system_prompt}]
+        if isinstance(user_comments, str):
+            messages.append({"role": "user", "content": user_comments})
+        elif isinstance(user_comments, list):
+            for comment in user_comments:
                 messages.append({"role": "user", "content": comment})
         else:
             raise ValueError("comments must be a list or a string.")
@@ -142,7 +132,8 @@ class Agent():
 # print("agent初始化")
 # print("-------------------test")
 # agent=Agent()
-# gpt_res=agent.chat("Bing 的dau是多少？")
+# gpt_res=agent.chat("你是谁")
+# print(gpt_res)
 # print(gpt_res)
 # res_json=json.loads(gpt_res)
 # with open("test.json","w",encoding="utf-8") as f:
