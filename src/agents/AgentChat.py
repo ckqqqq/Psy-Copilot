@@ -6,26 +6,9 @@ from openai import OpenAI
 
 
 import datetime
-"""
-from openai import OpenAI
-client = OpenAI()
 
-completion = client.chat.completions.create(
-  model="gpt-4o-mini",
-  messages=[
-    {"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
-    {"role": "user", "content": "Compose a poem that explains the concept of recursion in programming."}
-  ]
-)
-
-print(completion.choices[0].message)
-"""
-# DefaultAzureCredential()
-
-openai_api_key = os.getenv("OPENAI_API_KEY")
-model_list=["gpt-4o-mini","deepseek-chat"]
-chatbot_url_list=['https://gptnb.keqichen.top/v1','https://api.deepseek.com']
-class Agent():
+class AgentBase():
+    """Total design based agent for inherent."""
     def __init__(self, key=openai_api_key,base_url=chatbot_url_list[1],model=model_list[1], temperature=0.4, max_tokens=3000, top_p=0.7):
         """
         Initialize Agent class with API credentials and model parameters
@@ -129,13 +112,3 @@ class Agent():
             raise ValueError("comments must be a list or a string.")
             
         return messages
-# print("agent初始化")
-# print("-------------------test")
-# agent=Agent()
-# gpt_res=agent.chat("你是谁")
-# print(gpt_res)
-# print(gpt_res)
-# res_json=json.loads(gpt_res)
-# with open("test.json","w",encoding="utf-8") as f:
-#     json.dump(res_json,f,ensure_ascii=False)
-# print("-------------------")

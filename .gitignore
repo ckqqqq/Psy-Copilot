@@ -10,6 +10,7 @@
 # production
 **/build
 
+**./*.ini
 # misc
 **/.DS_Store
 **/.env.local
