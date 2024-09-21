@@ -2,7 +2,8 @@ from openai import OpenAI
 supported_api_list=[
     "deepseek",
 ]
-""""
+"""
+coming soon
     "openai",
     "ollama"
 """
@@ -10,8 +11,8 @@ supported_api_list=[
 import configparser
 
 config = configparser.ConfigParser()
-config.read('../config/config.ini')
-
+config.read('../config_file/config.ini')
+print(config.sections())
 
 def getDefaultOpenaiClient(deployment_model:str)-> OpenAI:
     """Supported Models: deepseek:deepseek-chat, deepseek:deepseek-coder,"""
@@ -20,6 +21,7 @@ def getDefaultOpenaiClient(deployment_model:str)-> OpenAI:
         raise ValueError(f"Your model\source {model} not support. ")
     if model.split(":")[0]=="deepseek":
         base_url="https://api.deepseek.com/beta"
+        print(config)
         api_key=config['DEEPSEEK']['DEEPSEEK_API_KEY']
     else:
         raise ValueError(f"Your model\source {model} not support. ")
