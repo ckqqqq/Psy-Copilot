@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- 用适当的信息替换 content 属性 -->
+  <meta name="description" content="Psy-Insight Dataset">
+  <meta property="og:title" content="This is a demo page for the Psy-Insight Dataset"/>
+  <meta property="og:description" content="A demo page for the Psy-Insight Dataset"/>
+  <meta property="og:url" content="This is the URL of our demo page"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <!-- 这里替换成banner image的路径，就是把横幅图像放到images文件夹中再更新下路径. 最佳尺寸为 1200x630-->
+  <meta property="og:image" content="static/image/你的banner.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <!-- 这里的content字段适当进行修改，我拍脑袋想的一些内容-->
+  <meta name="twitter:title" content="TWITTER BANNER TITLE for Psy-Insight Dataset">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION for Psy-Insight Dataset">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- 这里替换成banner image的路径，就是把横幅图像放到images文件夹中再更新下路径. 最佳尺寸为 1200x630-->
+  <meta name="twitter:image" content="static/images/你的twitter banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <!-- 您的网页要被索引的关键词 -->
+  <meta name="keywords" content="这里填几个被搜索时，希望被索引的关键词">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Academic Project Page</title>
+  <link rel="icon" type="image/x-icon" href="static/images/这个logo文件需要更改，否则就是模板网页的logo.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <!-- 下面是引入脚本文件的部分，不需要修改-->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+
+</head>
+
+<body>
+<!-- body部分包含了网页的可见内容 -->
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Psy-Insight</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- 论文作者 -->
+              <span class="author-block">
+                <a href="https://github.com/ckqqqq" target="_blank">Keqi Chen</a></span>
+                <span class="author-block">
+                  <a href="https://github.com/sunzekai795" target="_blank">Zekai Sun</a></span>
+                  <span class="author-block">
+                    <a href="这里替换为作者的个人主页链接" target="_blank">Yuhua Wen</a></span>
+                    <span class="author-block">
+                      <a href="这里替换为作者的个人主页链接" target="_blank">Huijun Lian</a></span>
+                      <span class="author-block">
+                        <a href="这里替换为作者的个人主页链接" target="_blank">Jinlong Xue</a></span>
+                        <span class="author-block">
+                          <a href="这里替换为作者的个人主页链接" target="_blank">Qifei Li</a></span>
+                          <span class="author-block">
+                            <a href="这里替换为作者的个人主页链接" target="_blank">Yingming Gao</a></span>
+                            <span class="author-block">
+                              <a href="这里替换为作者的个人主页链接" target="_blank">Ya Li</a></span>
+            </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Beijing University of Posts and Telecommunications<br>COLING 2025</span>
+            </div>
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <!-- Arxiv论文PDF链接 -->
+                  <span class="link-block">
+                    <a href="https://arxiv.org/pdf/ARXIV论文链接.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+
+                  <!-- 补充的PDF材料 -->
+                  <span class="link-block">
+                    <a href="static/pdfs/补充材料的pdf路径.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github链接，没有就把span块整个删了 -->
+                  <span class="link-block">
+                    <a href="https://github.com/GitHub repo链接" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code</span>
+                    </a>
+                  </span>
+
+                  <!-- ArXiv摘要页面链接 -->
+                  <span class="link-block">
+                    <a href="https://arxiv.org/abs/ArXiv摘要页面链接" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>arXiv</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 演示视频部分，没有的话就把整个section直接删了 -->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <!-- Your video here -->
+          <source src="static/videos/演示视频路径.mp4"
+          type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          这里填写一段简短的视频说明
+        </h2>
+      </div>
+    </div> 
+  </section>
+  <!-- End teaser video -->
+
+  <!-- 论文摘要部分 -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              论文摘要直接粘在这里
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+
+  <!-- 图片轮播部分 -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/第一张图片.jpg" alt="图片1描述"/>
+          <h2 class="subtitle has-text-centered">
+            First image description.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/第二张图片.jpg" alt="图片2描述"/>
+          <h2 class="subtitle has-text-centered">
+            Second image description.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/第三张图片.jpg" alt="图片3描述"/>
+          <h2 class="subtitle has-text-centered">
+          Third image description.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/第四张图片.jpg" alt="图片4描述"/>
+        <h2 class="subtitle has-text-centered">
+          Fourth image description.
+        </h2>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+  <!-- End image carousel -->
+
+
+
+
+  <!-- Excel 文件展示部分，替换掉了原模板中的youtobe视频展示 -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">人工评测统计结果展示</h2>
+        <!-- 第一个 Excel 文件 -->
+        <h3 class="subtitle">中文数据对比</h3>
+        <div id="excel-container1"></div>
+        <!-- 第二个 Excel 文件 -->
+        <h3 class="subtitle">英文数据对比</h3>
+        <div id="excel-container2"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 视频轮播部分，没那么多视频的话也删了吧 -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">更多结果</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-video1">
+            <video poster="" id="video1" autoplay controls muted loop height="100%">
+              <!-- Your video file here -->
+              <source src="static/videos/视频1.mp4"
+              type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-video2">
+            <video poster="" id="video2" autoplay controls muted loop height="100%">
+              <!-- Your video file here -->
+              <source src="static/videos/视频2.mp4"
+              type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-video3">
+            <video poster="" id="video3" autoplay controls muted loop height="100%">\
+              <!-- Your video file here -->
+              <source src="static/videos/视频3.mp4"
+              type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End video carousel -->
+
+
+
+
+
+
+  <!-- 论文海报部分，没有的话也删了，或者换成一张PDF大图 -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title">Paper Poster</h2>
+
+        <iframe  src="static/pdfs/海报.pdf" width="100%" height="550">
+            </iframe>
+          
+        </div>
+      </div>
+    </section>
+  <!--End paper poster -->
+
+
+  <!-- BibTex引用部分 -->
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>
+          @inproceedings{您的引用标签,
+            title={您论文的标题},
+            author={一作、二作、三作......},
+            booktitle={会议名称},
+            year={年份}
+          }
+        </code></pre>
+      </div>
+  </section>
+  <!--End BibTex citation -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <!-- 脚注信息，说明我们引用了这个模板来制作demo 可以自由修改也可以删了，建议保留不动 -->
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // 这是用GPT写的一段JavaScript加载excel文件的代码，若报错可修改，我没有测试过
+    function loadExcel(fileUrl, containerId) {
+      var oReq = new XMLHttpRequest();
+      oReq.open("GET", fileUrl, true);
+      oReq.responseType = "arraybuffer";
+  
+      oReq.onload = function(e) {
+        var arraybuffer = oReq.response;
+  
+        /* 将数据转换为 Uint8Array */
+        var data = new Uint8Array(arraybuffer);
+        var arr = new Array();
+        for(var i = 0; i != data.length; ++i) arr[i] = String.fromCharCode(data[i]);
+        var bstr = arr.join("");
+  
+        /* 读取工作簿 */
+        var workbook = XLSX.read(bstr, {type:"binary"});
+  
+        /* 假设您要展示第一个工作表 */
+        var first_sheet_name = workbook.SheetNames[0];
+        var worksheet = workbook.Sheets[first_sheet_name];
+  
+        /* 将工作表转换为 HTML */
+        var htmlstr = XLSX.utils.sheet_to_html(worksheet);
+  
+        /* 将 HTML 插入到指定容器中 */
+        document.getElementById(containerId).innerHTML = htmlstr;
+      }
+      oReq.send();
+    }
+    // 加载第一个 Excel 文件
+    loadExcel('static/files/your_excel_file1.xlsx', 'excel-container1');
+    // 加载第二个 Excel 文件
+    loadExcel('static/files/your_excel_file2.xlsx', 'excel-container2');
+  </script>
+
+</body>
+</html>
