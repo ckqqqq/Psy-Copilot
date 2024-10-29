@@ -9,5 +9,7 @@ class Entities(BaseModel):
 
     names: List[str] = Field(
         description=
-            "All the psychotherapy, counseling cases, emotional states, cognitive distortions, behavioral patterns, interpersonal interactions, self-perception, life events, cultural factors, and physical health entities that appear in the text",
+            """All the objective description that appear in the text. Such as client_emotion or therapist_strategy or client_action or target or psychotherapy or client_response or therapist_response or client_issue or      client_background or dialog_topic, please use descriptions with right names. 
+            Please focus on describing the therapist's therapist_strategy. Strategies refer to the techniques or actions used by the therapist, such as listening, support, goal setting, cognitive restructuring, etc., to help clients resolve psychological and behavioral issues. 
+            """
     )

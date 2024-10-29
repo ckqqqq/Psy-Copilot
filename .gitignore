@@ -57,3 +57,5 @@ query*.json
 debug.*
 
 src/__pycache__/
+
+experiment/*

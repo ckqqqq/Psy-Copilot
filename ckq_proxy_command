@@ -1,3 +1,0 @@
-alias setproxy="export ALL_PROXY=127.0.0.1:11137; echo $ALL_PROXY"
-alias setproxy22237="export ALL_PROXY=10.110.147.179:22237;echo $ALL_PROXY"
-alias unsetproxy="unset ALL_PROXY"
